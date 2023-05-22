@@ -10,16 +10,17 @@ int main()
         {
             cnt++;
             break;
-        }
-        a=b;
-        b=c;
-    }
-    if(cnt==1)
-    {
-        printf("True");
-    }
-    else
-    {
-        printf("False");
-    }
+            }
+            a=b;
+            b=c;
+            }
+            if(cnt==1)
+            {
+                printf("True");
+                }
+                else 
+                {
+                    printf("False");
+                    }
+    
 }

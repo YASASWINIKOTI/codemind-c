@@ -8,20 +8,20 @@ int main()
     {
         d=n%10; 
         arr[d]++;
-        n=n/10;
-        }
-        for(i=0;i<10;i++) 
+        n=n/10; 
+        
+    } 
+    for(i=0;i<10;i++)
+    {
+        if(arr[i]>1) 
         {
-            if(arr[i]>1)
+            printf("Not Unique Number");
+            break;
+            }
+            }
+            if(i==10)
             {
-                printf("Not Unique Number");
-                break;
+                printf("Unique Number");
                 }
-                }
-                if(i==10) 
-                {
-                    printf("Unique Number");
-                    }
-                    return 0;
-    
+                return 0;
 }
